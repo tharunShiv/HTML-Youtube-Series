@@ -1,0 +1,23 @@
+body{
+  text-align:center;
+  background-color:#333;
+}
+
+h1{
+  color:aqua;
+}
+
+#secondP{
+  color:white;
+}
+
+
+.element{
+  color:green;
+}
+
+.divC{
+  color:white;
+  font-size:24px;
+  line-height:2.0;
+}

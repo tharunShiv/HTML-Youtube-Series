@@ -1,0 +1,36 @@
+body{
+  background-color: #bbb;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:12px;
+  background-color:#444;
+  color:white;
+  overflow:hidden;
+  border-right:4px solid yellow;
+}
+
+li{
+  float:left;
+  padding-right:2px;
+}
+
+li a{
+  color:white;
+  margin-top:12px;
+  padding: 12px;
+  margin: 12px;
+  text-align:center;
+  text-decoration:none;
+}
+
+li a:hover{
+  background-color:yellow;
+  color:red;
+}
+
+#span1{
+  font-size:38px;
+}

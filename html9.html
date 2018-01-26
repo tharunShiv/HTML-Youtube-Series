@@ -6,9 +6,49 @@
 		</title>
     <link rel="stylesheet" href="style2.css">
 	</head>
-	<body style="text-align:center">
-     <img src="image.jpeg" alt="Image not Found" style="width:450px;">
+	<body style="text-align:center;font-size:30px;background-color:#EEE">
+    <!-- <img src="image.jpeg" alt="Image not Found" style="width:450px;">
     <img src="/images/image2.jpeg" alt="image "  style="width:450px;">
+	--> <form action="login.php" method="GET">
 
+      <fieldset>
+				<legend>SIGN UP</legend>
+				<label for="username">Username</label>
+				  <input type="text" name="username" required><br/>
+				<label for="password">Password</label>
+					<input type="password" name="password" required><br/>
+				<label for="gender">Gender</label>
+					<input type="radio" name="gender" value="male"> Male
+					<input type="radio" name="gender" value="female"> Female
+					<input type="radio" name="gender" value="other"> Other
+        <br>
+				  <select name="country">
+						<option value="Ind">India</option>
+						<option value="USA" >USA</option>
+						<option value="Russia">Russia</option>
+						<option value="Ind">India</option>
+						<option value="USA" >USA</option>
+						<option value="Russia">Russia</option>
+						<option value="Ind">India</option>
+						<option value="USA" >USA</option>
+						<option value="Russia">Russia</option>
+					</select>
+				<br>
+				   <textarea name="comments" rows="10" cols="30">
+            Welcome
+					 </textarea>
+				<br>
+				<input list="browsers">
+				<datalist id="browsers">
+						<option value="Internet Explorer">
+						<option value="Firefox">
+						<option value="Chrome">
+						<option value="Opera">
+						<option value="Safari">
+				</datalist>
+				  <input type="submit" value="submit">
+      </fieldset>
+
+		 </form>
     </body>
 </html>
